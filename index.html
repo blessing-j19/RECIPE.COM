@@ -56,16 +56,71 @@
         </header>
         <!-- Main Content -->
         <main> 
-            <!-- Home -->
-            <section class="container">
+            <!-- Introduction -->
+            <section class="container section" id="introduction" >
                 <h3 class="orange-text text-darken-4" > <strong> Hello there, foodies! </strong> </h3>
                 <p class="flow-text" >
                     You smart, you loyal, you a genius. You see the hedges, how I got it shaped up? It's imporatant to shape up your hedges, it's like getting a haircut, stay fresh. I'm giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. In life there will be road blocks but we will overcome it. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key.
                 </p>
+                <!-- Collapsibles -->
+                <hr>
+                <div class="row">
+                    <div class="col s12 l4"> 
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header orange darken-4 white-text">
+                                    <i class="material-icons">label</i>
+                                    <strong>CAKES!</strong>
+                                    
+                                </div>
+                                <div class="collapsible-body">
+                                    <img src="img/sponge_cake.webp" alt="Sponge Cake" class="responsive-img">
+                                    <p>I'm giving you cloth talk, cloth. Special cloth alert, cut from a special cloth. It's on you how you want to live your life.
+                                    </p>
+                                    <a class=" btn btn-flat orange darken-4 white-text" href=""> <strong> ALL CAKE RECIPES </strong> </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="collapsible">
+
+                        </div>
+                    </div>
+                    <div class="col s12 l4"></div>
+                </div>
+                <hr>
             </section>
+
+            <!-- Categories -->
+            
+            <section class="container section" id="customers-comment">
+                <h4 class="orange-text text-darken-4 center" > What Our Customers Say... </h4>
+            </section>
+            <section class="container">
+                <h4 class="orange-text text-darken-4"> Cakes </h4>
+                <p class="flow-text" >
+                    The other day the grass was brown, now it's green because I ain't give up. Never surrender. The key is to enjoy life, because they don't want you to enjoy life. I promise you, they don't want you to jetski, they don't want you to smile. Congratulations, you played yourself.
+                </p>
+            </section>
+            <section class="container">
+                <h4 class="orange-text text-darken-4"> Soups </h4>
+                <p class="flow-text" >
+                    When you believe, you will succeed. The first month is coming, we have to get money, we have no choice. It cost money to eat and they don't want you to eat. Surround yourself with angels, positive energy, beautiful people, beautiful souls and a clean heart.
+                </p>
+            </section>
+            <section class="container">
+                <h4 class="orange-text text-darken-4"> Chicken </h4>
+                <p class="flow-text" >
+                    The key to more success is to have a lot of pillows. We the best. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key. I'm giving you cloth talk, cloth. Special cloth alert, cut from a special cloth.
+                </p>
+            </section>
+            
         </main>
         <!-- Footer Content Below -->
-        <footer> </footer>
+        <footer> 
+            <p class="center-align white-text orange darken-4" > &copy 2025 Recipe.com| CORETECH</p>
+        </footer>
 
 
         <!-- JavaScript Below -->
@@ -75,6 +130,7 @@
             $(document).ready(function(){
                 $('.sidenav').sidenav();
                 $('.slider').slider();
+                $('.collapsible').collapsible();
             })
         </script>
         </script>
